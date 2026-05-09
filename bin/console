@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Symfony/Laravel-style CLI entrypoint alias for Switon.
+# Default XDEBUG_MODE=off to avoid noisy/unstable shutdown behavior unless user explicitly enables debugging.
+ROOT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
+cd "$ROOT_DIR" || exit 1
+XDEBUG_MODE=${XDEBUG_MODE:-off} php switon.php "$@"
