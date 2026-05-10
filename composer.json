@@ -42,8 +42,10 @@
     "switon/principal": "^1.0"
   },
   "require-dev": {
-    "phpunit/phpunit": "^12.0",
-    "switon/beacon": "^1.0"
+    "phpunit/phpunit": "^12.0"
+  },
+  "suggest": {
+    "switon/beacon": "Optional Beacon CLI tooling (composer require switon/beacon --dev)"
   },
   "autoload": {
     "psr-4": {
