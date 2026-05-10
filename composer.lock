@@ -1,0 +1,3438 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "510078b01796d4a0185c20b7e8f25313",
+    "packages": [
+        {
+            "name": "psr/container",
+            "version": "2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/container.git",
+                "reference": "c71ecc56dfe541dbd90c5360474fbc405f8d5963"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/c71ecc56dfe541dbd90c5360474fbc405f8d5963",
+                "reference": "c71ecc56dfe541dbd90c5360474fbc405f8d5963",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common Container Interface (PHP FIG PSR-11)",
+            "homepage": "https://github.com/php-fig/container",
+            "keywords": [
+                "PSR-11",
+                "container",
+                "container-interface",
+                "container-interop",
+                "psr"
+            ],
+            "support": {
+                "issues": "https://github.com/php-fig/container/issues",
+                "source": "https://github.com/php-fig/container/tree/2.0.2"
+            },
+            "time": "2021-11-05T16:47:00+00:00"
+        },
+        {
+            "name": "psr/event-dispatcher",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/event-dispatcher.git",
+                "reference": "dbefd12671e8a14ec7f180cab83036ed26714bb0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/event-dispatcher/zipball/dbefd12671e8a14ec7f180cab83036ed26714bb0",
+                "reference": "dbefd12671e8a14ec7f180cab83036ed26714bb0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\EventDispatcher\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Standard interfaces for event handling.",
+            "keywords": [
+                "events",
+                "psr",
+                "psr-14"
+            ],
+            "support": {
+                "issues": "https://github.com/php-fig/event-dispatcher/issues",
+                "source": "https://github.com/php-fig/event-dispatcher/tree/1.0.0"
+            },
+            "time": "2019-01-08T18:20:26+00:00"
+        },
+        {
+            "name": "psr/log",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "ef29f6d262798707a9edd554e2b82517ef3a9376"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/ef29f6d262798707a9edd554e2b82517ef3a9376",
+                "reference": "ef29f6d262798707a9edd554e2b82517ef3a9376",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/log/tree/2.0.0"
+            },
+            "time": "2021-07-14T16:41:46+00:00"
+        },
+        {
+            "name": "psr/simple-cache",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/simple-cache.git",
+                "reference": "764e0b3939f5ca87cb904f570ef9be2d78a07865"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/simple-cache/zipball/764e0b3939f5ca87cb904f570ef9be2d78a07865",
+                "reference": "764e0b3939f5ca87cb904f570ef9be2d78a07865",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\SimpleCache\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interfaces for simple caching",
+            "keywords": [
+                "cache",
+                "caching",
+                "psr",
+                "psr-16",
+                "simple-cache"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/simple-cache/tree/3.0.0"
+            },
+            "time": "2021-10-29T13:26:27+00:00"
+        },
+        {
+            "name": "switon/authz",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/switon-php/authz.git",
+                "reference": "d07adbf443bc8e1a837371df16684294d8952cb9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/switon-php/authz/zipball/d07adbf443bc8e1a837371df16684294d8952cb9",
+                "reference": "d07adbf443bc8e1a837371df16684294d8952cb9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.3",
+                "switon/core": "^1.0",
+                "switon/event": "^1.0",
+                "switon/http": "^1.0",
+                "switon/principal": "^1.0",
+                "switon/router": "^1.0"
+            },
+            "require-dev": {
+                "switon/testing": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "switon": {
+                    "providers": [
+                        "Switon\\Authorizing\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Switon\\Authorizing\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "switon",
+                    "email": "admin@switon.dev"
+                }
+            ],
+            "description": "Authorization and policy enforcement for Switon Framework",
+            "homepage": "https://github.com/switon-php/authz",
+            "keywords": [
+                "authorization",
+                "policies",
+                "rbac",
+                "switon"
+            ],
+            "support": {
+                "docs": "https://docs.switon.dev/latest/authz",
+                "issues": "https://github.com/switon-php/authz/issues",
+                "source": "https://github.com/switon-php/authz"
+            },
+            "time": "2026-05-10T04:01:33+00:00"
+        },
+        {
+            "name": "switon/binding",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/switon-php/binding.git",
+                "reference": "e1eb0b23ddf957d1fef67d40f011f1d216e49382"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/switon-php/binding/zipball/e1eb0b23ddf957d1fef67d40f011f1d216e49382",
+                "reference": "e1eb0b23ddf957d1fef67d40f011f1d216e49382",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.3",
+                "psr/container": "^2.0",
+                "psr/event-dispatcher": "^1.0",
+                "switon/core": "^1.0",
+                "switon/validation": "^1.0"
+            },
+            "require-dev": {
+                "switon/testing": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Switon\\Binding\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "switon",
+                    "email": "admin@switon.dev"
+                }
+            ],
+            "description": "Argument and input binding primitives for Switon Framework",
+            "homepage": "https://github.com/switon-php/binding",
+            "keywords": [
+                "arguments",
+                "binding",
+                "hydration",
+                "switon"
+            ],
+            "support": {
+                "docs": "https://docs.switon.dev/latest/binding",
+                "issues": "https://github.com/switon-php/binding/issues",
+                "source": "https://github.com/switon-php/binding"
+            },
+            "time": "2026-05-09T23:36:09+00:00"
+        },
+        {
+            "name": "switon/cache",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/switon-php/cache.git",
+                "reference": "e2a2dbe8c6b65bddbfb3138227faed9ae8b2030f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/switon-php/cache/zipball/e2a2dbe8c6b65bddbfb3138227faed9ae8b2030f",
+                "reference": "e2a2dbe8c6b65bddbfb3138227faed9ae8b2030f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.3",
+                "psr/event-dispatcher": "^1.0",
+                "psr/simple-cache": "^3.0",
+                "switon/core": "^1.0",
+                "switon/event": "^1.0",
+                "switon/redis": "^1.0"
+            },
+            "require-dev": {
+                "switon/testing": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "switon": {
+                    "commands": [
+                        "Switon\\Caching\\Command\\CacheCommand"
+                    ],
+                    "providers": [
+                        "Switon\\Caching\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Switon\\Caching\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "switon",
+                    "email": "admin@switon.dev"
+                }
+            ],
+            "description": "PSR-16 cache services with Redis-backed integration for Switon Framework",
+            "homepage": "https://github.com/switon-php/cache",
+            "keywords": [
+                "cache",
+                "psr-16",
+                "redis",
+                "switon"
+            ],
+            "support": {
+                "docs": "https://docs.switon.dev/latest/cache",
+                "issues": "https://github.com/switon-php/cache/issues",
+                "source": "https://github.com/switon-php/cache"
+            },
+            "time": "2026-05-09T16:37:33+00:00"
+        },
+        {
+            "name": "switon/cli",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/switon-php/cli.git",
+                "reference": "8852fd54d7de770aafbb30c267b909814913abf6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/switon-php/cli/zipball/8852fd54d7de770aafbb30c267b909814913abf6",
+                "reference": "8852fd54d7de770aafbb30c267b909814913abf6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.3",
+                "psr/container": "^2.0",
+                "psr/event-dispatcher": "^1.0",
+                "switon/binding": "^1.0",
+                "switon/command": "^1.0",
+                "switon/console": "^1.0",
+                "switon/core": "^1.0",
+                "switon/event": "^1.0",
+                "switon/invoker": "^1.0",
+                "switon/kernel": "^1.0"
+            },
+            "require-dev": {
+                "switon/testing": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "switon": {
+                    "commands": [
+                        "Switon\\Cli\\Command\\ListCommand",
+                        "Switon\\Cli\\Command\\HelpCommand",
+                        "Switon\\Cli\\Command\\CompletionCommand"
+                    ],
+                    "providers": [
+                        "Switon\\Cli\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Switon\\Cli\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "switon",
+                    "email": "admin@switon.dev"
+                }
+            ],
+            "description": "CLI commands and console tooling for Switon Framework",
+            "homepage": "https://github.com/switon-php/cli",
+            "keywords": [
+                "cli",
+                "commands",
+                "console",
+                "switon"
+            ],
+            "support": {
+                "docs": "https://docs.switon.dev/latest/cli",
+                "issues": "https://github.com/switon-php/cli/issues",
+                "source": "https://github.com/switon-php/cli"
+            },
+            "time": "2026-05-10T04:16:05+00:00"
+        },
+        {
+            "name": "switon/command",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/switon-php/command.git",
+                "reference": "cf6c52b04dbbde4a465ad3dfcbdfa1451a527a36"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/switon-php/command/zipball/cf6c52b04dbbde4a465ad3dfcbdfa1451a527a36",
+                "reference": "cf6c52b04dbbde4a465ad3dfcbdfa1451a527a36",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.3",
+                "switon/composer-extra": "^1.0",
+                "switon/core": "^1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^12.0",
+                "switon/testing": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Switon\\Command\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "switon",
+                    "email": "admin@switon.dev"
+                }
+            ],
+            "description": "Command metadata, discovery, and tooling for Switon (standalone)",
+            "homepage": "https://github.com/switon-php/command",
+            "keywords": [
+                "command",
+                "discovery",
+                "metadata",
+                "switon",
+                "tooling"
+            ],
+            "support": {
+                "docs": "https://docs.switon.dev/latest/command",
+                "issues": "https://github.com/switon-php/command/issues",
+                "source": "https://github.com/switon-php/command"
+            },
+            "time": "2026-05-09T16:59:05+00:00"
+        },
+        {
+            "name": "switon/composer-extra",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/switon-php/composer-extra.git",
+                "reference": "00a0fb17900dcb934dc299ec986135c0fe30f428"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/switon-php/composer-extra/zipball/00a0fb17900dcb934dc299ec986135c0fe30f428",
+                "reference": "00a0fb17900dcb934dc299ec986135c0fe30f428",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^2.0",
+                "ext-json": "*",
+                "php": ">=8.3",
+                "switon/core": "^1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^12.0"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Switon\\ComposerExtra\\Plugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Switon\\ComposerExtra\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "switon",
+                    "email": "admin@switon.dev"
+                }
+            ],
+            "description": "Composer extra metadata reader for Switon Framework",
+            "homepage": "https://github.com/switon-php/composer-extra",
+            "keywords": [
+                "composer",
+                "discovery",
+                "metadata",
+                "runtime",
+                "switon"
+            ],
+            "support": {
+                "docs": "https://docs.switon.dev/latest/composer-extra",
+                "issues": "https://github.com/switon-php/composer-extra/issues",
+                "source": "https://github.com/switon-php/composer-extra"
+            },
+            "time": "2026-05-09T15:31:38+00:00"
+        },
+        {
+            "name": "switon/console",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/switon-php/console.git",
+                "reference": "43976b7b5fff0e5dfea46adf5c07531558febc16"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/switon-php/console/zipball/43976b7b5fff0e5dfea46adf5c07531558febc16",
+                "reference": "43976b7b5fff0e5dfea46adf5c07531558febc16",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.3",
+                "switon/core": "^1.0"
+            },
+            "require-dev": {
+                "switon/testing": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "switon": {
+                    "providers": [
+                        "Switon\\Console\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Switon\\Console\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "switon",
+                    "email": "admin@switon.dev"
+                }
+            ],
+            "description": "Terminal styling with output primitives for Switon Framework",
+            "homepage": "https://github.com/switon-php/console",
+            "keywords": [
+                "ansi",
+                "console",
+                "switon",
+                "terminal"
+            ],
+            "support": {
+                "docs": "https://docs.switon.dev/latest/console",
+                "issues": "https://github.com/switon-php/console/issues",
+                "source": "https://github.com/switon-php/console"
+            },
+            "time": "2026-05-09T16:53:32+00:00"
+        },
+        {
+            "name": "switon/context",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/switon-php/context.git",
+                "reference": "08bdb466c0c6c7a99334cc1d4154b0ba28d4e7af"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/switon-php/context/zipball/08bdb466c0c6c7a99334cc1d4154b0ba28d4e7af",
+                "reference": "08bdb466c0c6c7a99334cc1d4154b0ba28d4e7af",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.3",
+                "psr/event-dispatcher": "^1.0",
+                "switon/core": "^1.0",
+                "switon/event": "^1.0"
+            },
+            "require-dev": {
+                "switon/testing": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "switon": {
+                    "providers": [
+                        "Switon\\Context\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Switon\\Context\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "switon",
+                    "email": "admin@switon.dev"
+                }
+            ],
+            "description": "Runtime context isolation with scoped state for Switon Framework",
+            "homepage": "https://github.com/switon-php/context",
+            "keywords": [
+                "Context",
+                "runtime",
+                "scope",
+                "switon"
+            ],
+            "support": {
+                "docs": "https://docs.switon.dev/latest/context",
+                "issues": "https://github.com/switon-php/context/issues",
+                "source": "https://github.com/switon-php/context"
+            },
+            "time": "2026-05-09T16:52:06+00:00"
+        },
+        {
+            "name": "switon/core",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/switon-php/core.git",
+                "reference": "18ec171ea7324fce969642cb4cb789707545ac7e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/switon-php/core/zipball/18ec171ea7324fce969642cb4cb789707545ac7e",
+                "reference": "18ec171ea7324fce969642cb4cb789707545ac7e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=8.3",
+                "psr/container": "^2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^12.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "helpers.php"
+                ],
+                "psr-4": {
+                    "Switon\\Core\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "switon",
+                    "email": "admin@switon.dev"
+                }
+            ],
+            "description": "Core contracts, attributes, and runtime utilities for Switon Framework",
+            "homepage": "https://github.com/switon-php/core",
+            "keywords": [
+                "attributes",
+                "contracts",
+                "core",
+                "switon",
+                "utilities"
+            ],
+            "support": {
+                "docs": "https://docs.switon.dev/latest/core",
+                "issues": "https://github.com/switon-php/core/issues",
+                "source": "https://github.com/switon-php/core"
+            },
+            "time": "2026-05-10T00:37:40+00:00"
+        },
+        {
+            "name": "switon/di",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/switon-php/di.git",
+                "reference": "65e8358dc873e99e9cee5b962620290f406449cd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/switon-php/di/zipball/65e8358dc873e99e9cee5b962620290f406449cd",
+                "reference": "65e8358dc873e99e9cee5b962620290f406449cd",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=8.3",
+                "psr/container": "^2.0",
+                "psr/event-dispatcher": "^1.0",
+                "switon/core": "^1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^12.0"
+            },
+            "type": "library",
+            "extra": {
+                "switon": {
+                    "commands": [
+                        "Switon\\Di\\Command\\ContainerCommand"
+                    ],
+                    "providers": [
+                        "Switon\\Di\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Switon\\Di\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "switon",
+                    "email": "admin@switon.dev"
+                }
+            ],
+            "description": "Dependency injection container and autowiring for Switon Framework",
+            "homepage": "https://github.com/switon-php/di",
+            "keywords": [
+                "Autowiring",
+                "container",
+                "dependency-injection",
+                "switon"
+            ],
+            "support": {
+                "docs": "https://docs.switon.dev/latest/di",
+                "issues": "https://github.com/switon-php/di/issues",
+                "source": "https://github.com/switon-php/di"
+            },
+            "time": "2026-05-09T15:07:42+00:00"
+        },
+        {
+            "name": "switon/event",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/switon-php/event.git",
+                "reference": "aa82a4ed1759e14246eb1a2d990ca891f9525434"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/switon-php/event/zipball/aa82a4ed1759e14246eb1a2d990ca891f9525434",
+                "reference": "aa82a4ed1759e14246eb1a2d990ca891f9525434",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.3",
+                "psr/event-dispatcher": "^1.0",
+                "psr/log": "^2.0",
+                "switon/composer-extra": "^1.0",
+                "switon/core": "^1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^12.0"
+            },
+            "type": "library",
+            "extra": {
+                "switon": {
+                    "providers": [
+                        "Switon\\Eventing\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Switon\\Eventing\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "switon",
+                    "email": "admin@switon.dev"
+                }
+            ],
+            "description": "PSR-14 event dispatching and listener discovery for Switon Framework",
+            "homepage": "https://github.com/switon-php/event",
+            "keywords": [
+                "events",
+                "listeners",
+                "psr-14",
+                "switon"
+            ],
+            "support": {
+                "docs": "https://docs.switon.dev/latest/event",
+                "issues": "https://github.com/switon-php/event/issues",
+                "source": "https://github.com/switon-php/event"
+            },
+            "time": "2026-05-10T01:04:42+00:00"
+        },
+        {
+            "name": "switon/http",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/switon-php/http.git",
+                "reference": "8099c7e31e9820535c97ab9e7c7f4a726172a8be"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/switon-php/http/zipball/8099c7e31e9820535c97ab9e7c7f4a726172a8be",
+                "reference": "8099c7e31e9820535c97ab9e7c7f4a726172a8be",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "php": ">=8.3",
+                "psr/event-dispatcher": "^1.0",
+                "switon/binding": "^1.0",
+                "switon/core": "^1.0",
+                "switon/event": "^1.0",
+                "switon/id": "^1.0",
+                "switon/invoker": "^1.0",
+                "switon/kernel": "^1.0",
+                "switon/principal": "^1.0",
+                "switon/renderer": "^1.0",
+                "switon/router": "^1.0"
+            },
+            "require-dev": {
+                "switon/i18n": "^1.0",
+                "switon/testing": "^1.0",
+                "switon/validation": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "switon": {
+                    "commands": [
+                        "Switon\\Http\\Command\\FilterCommand"
+                    ],
+                    "listeners": [
+                        "Switon\\Http\\RequestInterface",
+                        "Switon\\Http\\CookiesInterface",
+                        "Switon\\Http\\Server\\Listener\\RenameProcessTitleListener",
+                        "Switon\\Http\\Server\\Listener\\LogServerStatusListener"
+                    ],
+                    "providers": [
+                        "Switon\\Http\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "files": [
+                    "helpers.php"
+                ],
+                "psr-4": {
+                    "Switon\\Http\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "switon",
+                    "email": "admin@switon.dev"
+                }
+            ],
+            "description": "HTTP server, request pipeline, and response handling for Switon Framework",
+            "homepage": "https://github.com/switon-php/http",
+            "keywords": [
+                "http",
+                "requests",
+                "responses",
+                "server",
+                "switon"
+            ],
+            "support": {
+                "docs": "https://docs.switon.dev/latest/http",
+                "issues": "https://github.com/switon-php/http/issues",
+                "source": "https://github.com/switon-php/http"
+            },
+            "time": "2026-05-10T03:52:40+00:00"
+        },
+        {
+            "name": "switon/id",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/switon-php/id.git",
+                "reference": "27c463c89ba5e9ab2b0c040e66d614b052f2e173"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/switon-php/id/zipball/27c463c89ba5e9ab2b0c040e66d614b052f2e173",
+                "reference": "27c463c89ba5e9ab2b0c040e66d614b052f2e173",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.3",
+                "switon/core": "^1.0",
+                "switon/redis": "^1.0",
+                "switon/sync": "^1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^12.0",
+                "switon/testing": "^1.0"
+            },
+            "suggest": {
+                "ext-gmp": "Required for KSUID and ShortUuid support."
+            },
+            "type": "library",
+            "extra": {
+                "switon": {
+                    "commands": [
+                        "Switon\\Id\\Command\\IdCommand"
+                    ],
+                    "providers": [
+                        "Switon\\Id\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Switon\\Id\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "switon",
+                    "email": "admin@switon.dev"
+                }
+            ],
+            "description": "Distributed ID generation services for Switon Framework",
+            "homepage": "https://github.com/switon-php/id",
+            "keywords": [
+                "ids",
+                "snowflake",
+                "switon",
+                "uuid"
+            ],
+            "support": {
+                "docs": "https://docs.switon.dev/latest/id",
+                "issues": "https://github.com/switon-php/id/issues",
+                "source": "https://github.com/switon-php/id"
+            },
+            "time": "2026-05-09T16:50:03+00:00"
+        },
+        {
+            "name": "switon/invocation",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/switon-php/invocation.git",
+                "reference": "6cd1982738f8d921c89d29d65712e23c6901ff3e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/switon-php/invocation/zipball/6cd1982738f8d921c89d29d65712e23c6901ff3e",
+                "reference": "6cd1982738f8d921c89d29d65712e23c6901ff3e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.3"
+            },
+            "require-dev": {
+                "switon/testing": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Switon\\Invocation\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "switon",
+                    "email": "admin@switon.dev"
+                }
+            ],
+            "description": "Invocation guards and interceptors for Switon (standalone)",
+            "homepage": "https://github.com/switon-php/invocation",
+            "keywords": [
+                "attribute",
+                "interceptor",
+                "invocation",
+                "switon"
+            ],
+            "support": {
+                "docs": "https://docs.switon.dev/latest/invocation",
+                "issues": "https://github.com/switon-php/invocation/issues",
+                "source": "https://github.com/switon-php/invocation"
+            },
+            "time": "2026-05-10T00:00:50+00:00"
+        },
+        {
+            "name": "switon/invoker",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/switon-php/invoker.git",
+                "reference": "7a950193f161887e8817057f4fb5b76e5c2999ff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/switon-php/invoker/zipball/7a950193f161887e8817057f4fb5b76e5c2999ff",
+                "reference": "7a950193f161887e8817057f4fb5b76e5c2999ff",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.3",
+                "switon/core": "^1.0",
+                "switon/di": "^1.0",
+                "switon/invocation": "^1.0"
+            },
+            "require-dev": {
+                "switon/binding": "^1.0",
+                "switon/testing": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "switon": {
+                    "providers": [
+                        "Switon\\Invoking\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Switon\\Invoking\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "switon",
+                    "email": "admin@switon.dev"
+                }
+            ],
+            "description": "Method invocation orchestration for Switon (standalone)",
+            "homepage": "https://github.com/switon-php/invoker",
+            "keywords": [
+                "dispatch",
+                "invoker",
+                "reflection",
+                "switon"
+            ],
+            "support": {
+                "docs": "https://docs.switon.dev/latest/invoker",
+                "issues": "https://github.com/switon-php/invoker/issues",
+                "source": "https://github.com/switon-php/invoker"
+            },
+            "time": "2026-05-10T03:07:36+00:00"
+        },
+        {
+            "name": "switon/kernel",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/switon-php/kernel.git",
+                "reference": "12767be58e19b3b6a51d77aef448486c490342f7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/switon-php/kernel/zipball/12767be58e19b3b6a51d77aef448486c490342f7",
+                "reference": "12767be58e19b3b6a51d77aef448486c490342f7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.3",
+                "switon/core": "^1.0",
+                "switon/di": "^1.0",
+                "switon/event": "^1.0",
+                "switon/yaml": "^1.0"
+            },
+            "require-dev": {
+                "switon/testing": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "switon": {
+                    "commands": [
+                        "Switon\\Kernel\\Command\\VersionCommand"
+                    ],
+                    "providers": []
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Switon\\Kernel\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "switon",
+                    "email": "admin@switon.dev"
+                }
+            ],
+            "description": "Application bootstrap and provider lifecycle for Switon Framework",
+            "homepage": "https://github.com/switon-php/kernel",
+            "keywords": [
+                "bootstrap",
+                "kernel",
+                "providers",
+                "switon"
+            ],
+            "support": {
+                "docs": "https://docs.switon.dev/latest/kernel",
+                "issues": "https://github.com/switon-php/kernel/issues",
+                "source": "https://github.com/switon-php/kernel"
+            },
+            "time": "2026-05-10T03:22:04+00:00"
+        },
+        {
+            "name": "switon/log",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/switon-php/log.git",
+                "reference": "8dd28b78ac1a1938e8e3692c53758a1c5d62bd81"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/switon-php/log/zipball/8dd28b78ac1a1938e8e3692c53758a1c5d62bd81",
+                "reference": "8dd28b78ac1a1938e8e3692c53758a1c5d62bd81",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.3",
+                "psr/event-dispatcher": "^1.0",
+                "psr/log": "^2.0",
+                "switon/core": "^1.0",
+                "switon/event": "^1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^12.0",
+                "switon/testing": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "switon": {
+                    "providers": [
+                        "Switon\\Logging\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Switon\\Logging\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "switon",
+                    "email": "admin@switon.dev"
+                }
+            ],
+            "description": "Structured logging with log routing for Switon Framework",
+            "homepage": "https://github.com/switon-php/log",
+            "keywords": [
+                "logging",
+                "observability",
+                "psr-3",
+                "switon"
+            ],
+            "support": {
+                "docs": "https://docs.switon.dev/latest/log",
+                "issues": "https://github.com/switon-php/log/issues",
+                "source": "https://github.com/switon-php/log"
+            },
+            "time": "2026-05-09T16:42:50+00:00"
+        },
+        {
+            "name": "switon/pool",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/switon-php/pool.git",
+                "reference": "4d884366d2241f04b713ac3cd676fc86ac06349b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/switon-php/pool/zipball/4d884366d2241f04b713ac3cd676fc86ac06349b",
+                "reference": "4d884366d2241f04b713ac3cd676fc86ac06349b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.3",
+                "psr/event-dispatcher": "^1.0",
+                "switon/core": "^1.0",
+                "switon/event": "^1.0",
+                "switon/sync": "^1.0"
+            },
+            "require-dev": {
+                "switon/testing": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Switon\\Pooling\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "switon",
+                    "email": "admin@switon.dev"
+                }
+            ],
+            "description": "Connection pooling and resource lifecycle management for Switon Framework",
+            "homepage": "https://github.com/switon-php/pool",
+            "keywords": [
+                "connections",
+                "pooling",
+                "resources",
+                "switon"
+            ],
+            "support": {
+                "docs": "https://docs.switon.dev/latest/pool",
+                "issues": "https://github.com/switon-php/pool/issues",
+                "source": "https://github.com/switon-php/pool"
+            },
+            "time": "2026-05-09T16:34:16+00:00"
+        },
+        {
+            "name": "switon/principal",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/switon-php/principal.git",
+                "reference": "dc32594b4d85c43cf2cb8b792712bef3e312d3e1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/switon-php/principal/zipball/dc32594b4d85c43cf2cb8b792712bef3e312d3e1",
+                "reference": "dc32594b4d85c43cf2cb8b792712bef3e312d3e1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.3",
+                "switon/core": "^1.0"
+            },
+            "require-dev": {
+                "switon/testing": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "switon": {
+                    "providers": []
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Switon\\Principal\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "switon",
+                    "email": "admin@switon.dev"
+                }
+            ],
+            "description": "Identity and tenant runtime contracts for Switon (standalone)",
+            "homepage": "https://github.com/switon-php/principal",
+            "keywords": [
+                "identity",
+                "principal",
+                "switon",
+                "tenant"
+            ],
+            "support": {
+                "docs": "https://docs.switon.dev/latest/principal",
+                "issues": "https://github.com/switon-php/principal/issues",
+                "source": "https://github.com/switon-php/principal"
+            },
+            "time": "2026-05-10T01:54:42+00:00"
+        },
+        {
+            "name": "switon/redis",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/switon-php/redis.git",
+                "reference": "58e833500ab454576891e1e9e930510b587405c7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/switon-php/redis/zipball/58e833500ab454576891e1e9e930510b587405c7",
+                "reference": "58e833500ab454576891e1e9e930510b587405c7",
+                "shasum": ""
+            },
+            "require": {
+                "ext-redis": "*",
+                "php": ">=8.3",
+                "psr/event-dispatcher": "^1.0",
+                "switon/core": "^1.0",
+                "switon/di": "^1.0",
+                "switon/event": "^1.0",
+                "switon/pool": "^1.0"
+            },
+            "require-dev": {
+                "switon/testing": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "switon": {
+                    "commands": [
+                        "Switon\\Redis\\Command\\RedisCommand"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Switon\\Redis\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "switon",
+                    "email": "admin@switon.dev"
+                }
+            ],
+            "description": "Redis client services with pooling support for Switon Framework",
+            "homepage": "https://github.com/switon-php/redis",
+            "keywords": [
+                "cache",
+                "pooling",
+                "redis",
+                "switon"
+            ],
+            "support": {
+                "docs": "https://docs.switon.dev/latest/redis",
+                "issues": "https://github.com/switon-php/redis/issues",
+                "source": "https://github.com/switon-php/redis"
+            },
+            "time": "2026-05-09T16:35:39+00:00"
+        },
+        {
+            "name": "switon/renderer",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/switon-php/renderer.git",
+                "reference": "c477c2dc1b9ad9a8fe677666b19f0bd07c0974b1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/switon-php/renderer/zipball/c477c2dc1b9ad9a8fe677666b19f0bd07c0974b1",
+                "reference": "c477c2dc1b9ad9a8fe677666b19f0bd07c0974b1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.3",
+                "psr/event-dispatcher": "^1.0",
+                "switon/core": "^1.0",
+                "switon/event": "^1.0",
+                "switon/sync": "^1.0"
+            },
+            "require-dev": {
+                "switon/testing": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "switon": {
+                    "commands": [
+                        "Switon\\Rendering\\Command\\SwordCommand"
+                    ],
+                    "collectors": {
+                        "renderer": "Switon\\Rendering\\Inspector\\RendererCollector"
+                    }
+                }
+            },
+            "autoload": {
+                "files": [
+                    "helpers.php"
+                ],
+                "psr-4": {
+                    "Switon\\Rendering\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "switon",
+                    "email": "admin@switon.dev"
+                }
+            ],
+            "description": "Template rendering and view output helpers for Switon Framework",
+            "homepage": "https://github.com/switon-php/renderer",
+            "keywords": [
+                "renderer",
+                "switon",
+                "templates",
+                "views"
+            ],
+            "support": {
+                "docs": "https://docs.switon.dev/latest/renderer",
+                "issues": "https://github.com/switon-php/renderer/issues",
+                "source": "https://github.com/switon-php/renderer"
+            },
+            "time": "2026-05-09T23:36:09+00:00"
+        },
+        {
+            "name": "switon/router",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/switon-php/router.git",
+                "reference": "b496ed4b028a88f77679394f2b6885c2e104b43b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/switon-php/router/zipball/b496ed4b028a88f77679394f2b6885c2e104b43b",
+                "reference": "b496ed4b028a88f77679394f2b6885c2e104b43b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.3",
+                "psr/event-dispatcher": "^1.0",
+                "switon/core": "^1.0",
+                "switon/event": "^1.0"
+            },
+            "require-dev": {
+                "switon/testing": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "switon": {
+                    "commands": [
+                        "Switon\\Routing\\Command\\RouterCommand"
+                    ],
+                    "collectors": {
+                        "router": "Switon\\Routing\\Inspector\\RouterCollector"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Switon\\Routing\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "switon",
+                    "email": "admin@switon.dev"
+                }
+            ],
+            "description": "Route matching, parameter resolution, and path mapping for Switon Framework",
+            "homepage": "https://github.com/switon-php/router",
+            "keywords": [
+                "paths",
+                "router",
+                "routing",
+                "switon"
+            ],
+            "support": {
+                "docs": "https://docs.switon.dev/latest/router",
+                "issues": "https://github.com/switon-php/router/issues",
+                "source": "https://github.com/switon-php/router"
+            },
+            "time": "2026-05-10T03:31:21+00:00"
+        },
+        {
+            "name": "switon/sync",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/switon-php/sync.git",
+                "reference": "8037604a7b3885d199df5a7263e743a2b456140a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/switon-php/sync/zipball/8037604a7b3885d199df5a7263e743a2b456140a",
+                "reference": "8037604a7b3885d199df5a7263e743a2b456140a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.3",
+                "switon/core": "^1.0"
+            },
+            "require-dev": {
+                "switon/testing": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Switon\\Sync\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "switon",
+                    "email": "admin@switon.dev"
+                }
+            ],
+            "description": "Channels, mutexes, and synchronization primitives for Switon Framework",
+            "homepage": "https://github.com/switon-php/sync",
+            "keywords": [
+                "channels",
+                "mutex",
+                "switon",
+                "synchronization"
+            ],
+            "support": {
+                "docs": "https://docs.switon.dev/latest/sync",
+                "issues": "https://github.com/switon-php/sync/issues",
+                "source": "https://github.com/switon-php/sync"
+            },
+            "time": "2026-05-09T16:24:39+00:00"
+        },
+        {
+            "name": "switon/validation",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/switon-php/validation.git",
+                "reference": "3f045bd6956c59474310e6940419d63dca1374e8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/switon-php/validation/zipball/3f045bd6956c59474310e6940419d63dca1374e8",
+                "reference": "3f045bd6956c59474310e6940419d63dca1374e8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.3",
+                "switon/core": "^1.0"
+            },
+            "require-dev": {
+                "switon/testing": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "switon": {
+                    "providers": [
+                        "Switon\\Validating\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Switon\\Validating\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "switon",
+                    "email": "admin@switon.dev"
+                }
+            ],
+            "description": "Validation rules, constraints, and error collection for Switon Framework",
+            "homepage": "https://github.com/switon-php/validation",
+            "keywords": [
+                "constraints",
+                "switon",
+                "validation",
+                "validator"
+            ],
+            "support": {
+                "docs": "https://docs.switon.dev/latest/validation",
+                "issues": "https://github.com/switon-php/validation/issues",
+                "source": "https://github.com/switon-php/validation"
+            },
+            "time": "2026-05-10T02:39:49+00:00"
+        },
+        {
+            "name": "switon/yaml",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/switon-php/yaml.git",
+                "reference": "8550ff3db18558c4d8772c0544aa5b43d9a168a2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/switon-php/yaml/zipball/8550ff3db18558c4d8772c0544aa5b43d9a168a2",
+                "reference": "8550ff3db18558c4d8772c0544aa5b43d9a168a2",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=8.3",
+                "switon/core": "^1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^12.0"
+            },
+            "type": "library",
+            "extra": {
+                "switon": {
+                    "providers": []
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Switon\\Yaml\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "switon",
+                    "email": "admin@switon.dev"
+                }
+            ],
+            "description": "Switon YAML subset parsing and interpolation utilities",
+            "homepage": "https://github.com/switon-php/yaml",
+            "keywords": [
+                "config",
+                "parser",
+                "switon",
+                "yaml"
+            ],
+            "support": {
+                "docs": "https://docs.switon.dev/latest/yaml",
+                "issues": "https://github.com/switon-php/yaml/issues",
+                "source": "https://github.com/switon-php/yaml"
+            },
+            "time": "2026-05-09T16:44:24+00:00"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "myclabs/deep-copy",
+            "version": "1.13.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/myclabs/DeepCopy.git",
+                "reference": "07d290f0c47959fd5eed98c95ee5602db07e0b6a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/07d290f0c47959fd5eed98c95ee5602db07e0b6a",
+                "reference": "07d290f0c47959fd5eed98c95ee5602db07e0b6a",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1 || ^8.0"
+            },
+            "conflict": {
+                "doctrine/collections": "<1.6.8",
+                "doctrine/common": "<2.13.3 || >=3 <3.2.2"
+            },
+            "require-dev": {
+                "doctrine/collections": "^1.6.8",
+                "doctrine/common": "^2.13.3 || ^3.2.2",
+                "phpspec/prophecy": "^1.10",
+                "phpunit/phpunit": "^7.5.20 || ^8.5.23 || ^9.5.13"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/DeepCopy/deep_copy.php"
+                ],
+                "psr-4": {
+                    "DeepCopy\\": "src/DeepCopy/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Create deep copies (clones) of your objects",
+            "keywords": [
+                "clone",
+                "copy",
+                "duplicate",
+                "object",
+                "object graph"
+            ],
+            "support": {
+                "issues": "https://github.com/myclabs/DeepCopy/issues",
+                "source": "https://github.com/myclabs/DeepCopy/tree/1.13.4"
+            },
+            "funding": [
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/myclabs/deep-copy",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2025-08-01T08:46:24+00:00"
+        },
+        {
+            "name": "nikic/php-parser",
+            "version": "v5.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nikic/PHP-Parser.git",
+                "reference": "dca41cd15c2ac9d055ad70dbfd011130757d1f82"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/dca41cd15c2ac9d055ad70dbfd011130757d1f82",
+                "reference": "dca41cd15c2ac9d055ad70dbfd011130757d1f82",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ctype": "*",
+                "ext-json": "*",
+                "ext-tokenizer": "*",
+                "php": ">=7.4"
+            },
+            "require-dev": {
+                "ircmaxell/php-yacc": "^0.0.7",
+                "phpunit/phpunit": "^9.0"
+            },
+            "bin": [
+                "bin/php-parse"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "PhpParser\\": "lib/PhpParser"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nikita Popov"
+                }
+            ],
+            "description": "A PHP parser written in PHP",
+            "keywords": [
+                "parser",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/nikic/PHP-Parser/issues",
+                "source": "https://github.com/nikic/PHP-Parser/tree/v5.7.0"
+            },
+            "time": "2025-12-06T11:56:16+00:00"
+        },
+        {
+            "name": "phar-io/manifest",
+            "version": "2.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phar-io/manifest.git",
+                "reference": "54750ef60c58e43759730615a392c31c80e23176"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phar-io/manifest/zipball/54750ef60c58e43759730615a392c31c80e23176",
+                "reference": "54750ef60c58e43759730615a392c31c80e23176",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-libxml": "*",
+                "ext-phar": "*",
+                "ext-xmlwriter": "*",
+                "phar-io/version": "^3.0.1",
+                "php": "^7.2 || ^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Arne Blankerts",
+                    "email": "arne@blankerts.de",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Sebastian Heuer",
+                    "email": "sebastian@phpeople.de",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Component for reading phar.io manifest information from a PHP Archive (PHAR)",
+            "support": {
+                "issues": "https://github.com/phar-io/manifest/issues",
+                "source": "https://github.com/phar-io/manifest/tree/2.0.4"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/theseer",
+                    "type": "github"
+                }
+            ],
+            "time": "2024-03-03T12:33:53+00:00"
+        },
+        {
+            "name": "phar-io/version",
+            "version": "3.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phar-io/version.git",
+                "reference": "4f7fd7836c6f332bb2933569e566a0d6c4cbed74"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phar-io/version/zipball/4f7fd7836c6f332bb2933569e566a0d6c4cbed74",
+                "reference": "4f7fd7836c6f332bb2933569e566a0d6c4cbed74",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2 || ^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Arne Blankerts",
+                    "email": "arne@blankerts.de",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Sebastian Heuer",
+                    "email": "sebastian@phpeople.de",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Library for handling version information and constraints",
+            "support": {
+                "issues": "https://github.com/phar-io/version/issues",
+                "source": "https://github.com/phar-io/version/tree/3.2.1"
+            },
+            "time": "2022-02-21T01:04:05+00:00"
+        },
+        {
+            "name": "phpunit/php-code-coverage",
+            "version": "12.5.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
+                "reference": "876099a072646c7745f673d7aeab5382c4439691"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/876099a072646c7745f673d7aeab5382c4439691",
+                "reference": "876099a072646c7745f673d7aeab5382c4439691",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-libxml": "*",
+                "ext-xmlwriter": "*",
+                "nikic/php-parser": "^5.7.0",
+                "php": ">=8.3",
+                "phpunit/php-text-template": "^5.0",
+                "sebastian/complexity": "^5.0",
+                "sebastian/environment": "^8.0.3",
+                "sebastian/lines-of-code": "^4.0",
+                "sebastian/version": "^6.0",
+                "theseer/tokenizer": "^2.0.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^12.5.1"
+            },
+            "suggest": {
+                "ext-pcov": "PHP extension that provides line coverage",
+                "ext-xdebug": "PHP extension that provides line coverage as well as branch and path coverage"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "12.5.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Library that provides collection, processing, and rendering functionality for PHP code coverage information.",
+            "homepage": "https://github.com/sebastianbergmann/php-code-coverage",
+            "keywords": [
+                "coverage",
+                "testing",
+                "xunit"
+            ],
+            "support": {
+                "issues": "https://github.com/sebastianbergmann/php-code-coverage/issues",
+                "security": "https://github.com/sebastianbergmann/php-code-coverage/security/policy",
+                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/12.5.6"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sebastianbergmann",
+                    "type": "github"
+                },
+                {
+                    "url": "https://liberapay.com/sebastianbergmann",
+                    "type": "liberapay"
+                },
+                {
+                    "url": "https://thanks.dev/u/gh/sebastianbergmann",
+                    "type": "thanks_dev"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/phpunit/php-code-coverage",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2026-04-15T08:23:17+00:00"
+        },
+        {
+            "name": "phpunit/php-file-iterator",
+            "version": "6.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-file-iterator.git",
+                "reference": "3d1cd096ef6bea4bf2762ba586e35dbd317cbfd5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-file-iterator/zipball/3d1cd096ef6bea4bf2762ba586e35dbd317cbfd5",
+                "reference": "3d1cd096ef6bea4bf2762ba586e35dbd317cbfd5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^12.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "6.0-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "FilterIterator implementation that filters files based on a list of suffixes.",
+            "homepage": "https://github.com/sebastianbergmann/php-file-iterator/",
+            "keywords": [
+                "filesystem",
+                "iterator"
+            ],
+            "support": {
+                "issues": "https://github.com/sebastianbergmann/php-file-iterator/issues",
+                "security": "https://github.com/sebastianbergmann/php-file-iterator/security/policy",
+                "source": "https://github.com/sebastianbergmann/php-file-iterator/tree/6.0.1"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sebastianbergmann",
+                    "type": "github"
+                },
+                {
+                    "url": "https://liberapay.com/sebastianbergmann",
+                    "type": "liberapay"
+                },
+                {
+                    "url": "https://thanks.dev/u/gh/sebastianbergmann",
+                    "type": "thanks_dev"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/phpunit/php-file-iterator",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2026-02-02T14:04:18+00:00"
+        },
+        {
+            "name": "phpunit/php-invoker",
+            "version": "6.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-invoker.git",
+                "reference": "12b54e689b07a25a9b41e57736dfab6ec9ae5406"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-invoker/zipball/12b54e689b07a25a9b41e57736dfab6ec9ae5406",
+                "reference": "12b54e689b07a25a9b41e57736dfab6ec9ae5406",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.3"
+            },
+            "require-dev": {
+                "ext-pcntl": "*",
+                "phpunit/phpunit": "^12.0"
+            },
+            "suggest": {
+                "ext-pcntl": "*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "6.0-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Invoke callables with a timeout",
+            "homepage": "https://github.com/sebastianbergmann/php-invoker/",
+            "keywords": [
+                "process"
+            ],
+            "support": {
+                "issues": "https://github.com/sebastianbergmann/php-invoker/issues",
+                "security": "https://github.com/sebastianbergmann/php-invoker/security/policy",
+                "source": "https://github.com/sebastianbergmann/php-invoker/tree/6.0.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sebastianbergmann",
+                    "type": "github"
+                }
+            ],
+            "time": "2025-02-07T04:58:58+00:00"
+        },
+        {
+            "name": "phpunit/php-text-template",
+            "version": "5.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-text-template.git",
+                "reference": "e1367a453f0eda562eedb4f659e13aa900d66c53"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-text-template/zipball/e1367a453f0eda562eedb4f659e13aa900d66c53",
+                "reference": "e1367a453f0eda562eedb4f659e13aa900d66c53",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^12.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "5.0-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Simple template engine.",
+            "homepage": "https://github.com/sebastianbergmann/php-text-template/",
+            "keywords": [
+                "template"
+            ],
+            "support": {
+                "issues": "https://github.com/sebastianbergmann/php-text-template/issues",
+                "security": "https://github.com/sebastianbergmann/php-text-template/security/policy",
+                "source": "https://github.com/sebastianbergmann/php-text-template/tree/5.0.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sebastianbergmann",
+                    "type": "github"
+                }
+            ],
+            "time": "2025-02-07T04:59:16+00:00"
+        },
+        {
+            "name": "phpunit/php-timer",
+            "version": "8.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-timer.git",
+                "reference": "f258ce36aa457f3aa3339f9ed4c81fc66dc8c2cc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-timer/zipball/f258ce36aa457f3aa3339f9ed4c81fc66dc8c2cc",
+                "reference": "f258ce36aa457f3aa3339f9ed4c81fc66dc8c2cc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^12.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "8.0-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Utility class for timing",
+            "homepage": "https://github.com/sebastianbergmann/php-timer/",
+            "keywords": [
+                "timer"
+            ],
+            "support": {
+                "issues": "https://github.com/sebastianbergmann/php-timer/issues",
+                "security": "https://github.com/sebastianbergmann/php-timer/security/policy",
+                "source": "https://github.com/sebastianbergmann/php-timer/tree/8.0.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sebastianbergmann",
+                    "type": "github"
+                }
+            ],
+            "time": "2025-02-07T04:59:38+00:00"
+        },
+        {
+            "name": "phpunit/phpunit",
+            "version": "12.5.24",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/phpunit.git",
+                "reference": "d75dd30597caa80e72fad2ef7904601a30ef1046"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/d75dd30597caa80e72fad2ef7904601a30ef1046",
+                "reference": "d75dd30597caa80e72fad2ef7904601a30ef1046",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-json": "*",
+                "ext-libxml": "*",
+                "ext-mbstring": "*",
+                "ext-xml": "*",
+                "ext-xmlwriter": "*",
+                "myclabs/deep-copy": "^1.13.4",
+                "phar-io/manifest": "^2.0.4",
+                "phar-io/version": "^3.2.1",
+                "php": ">=8.3",
+                "phpunit/php-code-coverage": "^12.5.6",
+                "phpunit/php-file-iterator": "^6.0.1",
+                "phpunit/php-invoker": "^6.0.0",
+                "phpunit/php-text-template": "^5.0.0",
+                "phpunit/php-timer": "^8.0.0",
+                "sebastian/cli-parser": "^4.2.0",
+                "sebastian/comparator": "^7.1.6",
+                "sebastian/diff": "^7.0.0",
+                "sebastian/environment": "^8.1.0",
+                "sebastian/exporter": "^7.0.2",
+                "sebastian/global-state": "^8.0.2",
+                "sebastian/object-enumerator": "^7.0.0",
+                "sebastian/recursion-context": "^7.0.1",
+                "sebastian/type": "^6.0.3",
+                "sebastian/version": "^6.0.0",
+                "staabm/side-effects-detector": "^1.0.5"
+            },
+            "bin": [
+                "phpunit"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "12.5-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/Framework/Assert/Functions.php"
+                ],
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "The PHP Unit Testing framework.",
+            "homepage": "https://phpunit.de/",
+            "keywords": [
+                "phpunit",
+                "testing",
+                "xunit"
+            ],
+            "support": {
+                "issues": "https://github.com/sebastianbergmann/phpunit/issues",
+                "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/12.5.24"
+            },
+            "funding": [
+                {
+                    "url": "https://phpunit.de/sponsoring.html",
+                    "type": "other"
+                }
+            ],
+            "time": "2026-05-01T04:21:04+00:00"
+        },
+        {
+            "name": "sebastian/cli-parser",
+            "version": "4.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/cli-parser.git",
+                "reference": "90f41072d220e5c40df6e8635f5dafba2d9d4d04"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/cli-parser/zipball/90f41072d220e5c40df6e8635f5dafba2d9d4d04",
+                "reference": "90f41072d220e5c40df6e8635f5dafba2d9d4d04",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^12.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "4.2-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Library for parsing CLI options",
+            "homepage": "https://github.com/sebastianbergmann/cli-parser",
+            "support": {
+                "issues": "https://github.com/sebastianbergmann/cli-parser/issues",
+                "security": "https://github.com/sebastianbergmann/cli-parser/security/policy",
+                "source": "https://github.com/sebastianbergmann/cli-parser/tree/4.2.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sebastianbergmann",
+                    "type": "github"
+                },
+                {
+                    "url": "https://liberapay.com/sebastianbergmann",
+                    "type": "liberapay"
+                },
+                {
+                    "url": "https://thanks.dev/u/gh/sebastianbergmann",
+                    "type": "thanks_dev"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/sebastian/cli-parser",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2025-09-14T09:36:45+00:00"
+        },
+        {
+            "name": "sebastian/comparator",
+            "version": "7.1.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/comparator.git",
+                "reference": "c769009dee98f494e0edc3fd4f4087501688f11e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/c769009dee98f494e0edc3fd4f4087501688f11e",
+                "reference": "c769009dee98f494e0edc3fd4f4087501688f11e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-mbstring": "*",
+                "php": ">=8.3",
+                "sebastian/diff": "^7.0",
+                "sebastian/exporter": "^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^12.2"
+            },
+            "suggest": {
+                "ext-bcmath": "For comparing BcMath\\Number objects"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "7.1-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                },
+                {
+                    "name": "Jeff Welch",
+                    "email": "whatthejeff@gmail.com"
+                },
+                {
+                    "name": "Volker Dusch",
+                    "email": "github@wallbash.com"
+                },
+                {
+                    "name": "Bernhard Schussek",
+                    "email": "bschussek@2bepublished.at"
+                }
+            ],
+            "description": "Provides the functionality to compare PHP values for equality",
+            "homepage": "https://github.com/sebastianbergmann/comparator",
+            "keywords": [
+                "comparator",
+                "compare",
+                "equality"
+            ],
+            "support": {
+                "issues": "https://github.com/sebastianbergmann/comparator/issues",
+                "security": "https://github.com/sebastianbergmann/comparator/security/policy",
+                "source": "https://github.com/sebastianbergmann/comparator/tree/7.1.6"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sebastianbergmann",
+                    "type": "github"
+                },
+                {
+                    "url": "https://liberapay.com/sebastianbergmann",
+                    "type": "liberapay"
+                },
+                {
+                    "url": "https://thanks.dev/u/gh/sebastianbergmann",
+                    "type": "thanks_dev"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/sebastian/comparator",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2026-04-14T08:23:15+00:00"
+        },
+        {
+            "name": "sebastian/complexity",
+            "version": "5.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/complexity.git",
+                "reference": "bad4316aba5303d0221f43f8cee37eb58d384bbb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/complexity/zipball/bad4316aba5303d0221f43f8cee37eb58d384bbb",
+                "reference": "bad4316aba5303d0221f43f8cee37eb58d384bbb",
+                "shasum": ""
+            },
+            "require": {
+                "nikic/php-parser": "^5.0",
+                "php": ">=8.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^12.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "5.0-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Library for calculating the complexity of PHP code units",
+            "homepage": "https://github.com/sebastianbergmann/complexity",
+            "support": {
+                "issues": "https://github.com/sebastianbergmann/complexity/issues",
+                "security": "https://github.com/sebastianbergmann/complexity/security/policy",
+                "source": "https://github.com/sebastianbergmann/complexity/tree/5.0.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sebastianbergmann",
+                    "type": "github"
+                }
+            ],
+            "time": "2025-02-07T04:55:25+00:00"
+        },
+        {
+            "name": "sebastian/diff",
+            "version": "7.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/diff.git",
+                "reference": "7ab1ea946c012266ca32390913653d844ecd085f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/diff/zipball/7ab1ea946c012266ca32390913653d844ecd085f",
+                "reference": "7ab1ea946c012266ca32390913653d844ecd085f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^12.0",
+                "symfony/process": "^7.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "7.0-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                },
+                {
+                    "name": "Kore Nordmann",
+                    "email": "mail@kore-nordmann.de"
+                }
+            ],
+            "description": "Diff implementation",
+            "homepage": "https://github.com/sebastianbergmann/diff",
+            "keywords": [
+                "diff",
+                "udiff",
+                "unidiff",
+                "unified diff"
+            ],
+            "support": {
+                "issues": "https://github.com/sebastianbergmann/diff/issues",
+                "security": "https://github.com/sebastianbergmann/diff/security/policy",
+                "source": "https://github.com/sebastianbergmann/diff/tree/7.0.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sebastianbergmann",
+                    "type": "github"
+                }
+            ],
+            "time": "2025-02-07T04:55:46+00:00"
+        },
+        {
+            "name": "sebastian/environment",
+            "version": "8.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/environment.git",
+                "reference": "b121608b28a13f721e76ffbbd386d08eff58f3f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/b121608b28a13f721e76ffbbd386d08eff58f3f6",
+                "reference": "b121608b28a13f721e76ffbbd386d08eff58f3f6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^12.0"
+            },
+            "suggest": {
+                "ext-posix": "*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "8.1-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                }
+            ],
+            "description": "Provides functionality to handle HHVM/PHP environments",
+            "homepage": "https://github.com/sebastianbergmann/environment",
+            "keywords": [
+                "Xdebug",
+                "environment",
+                "hhvm"
+            ],
+            "support": {
+                "issues": "https://github.com/sebastianbergmann/environment/issues",
+                "security": "https://github.com/sebastianbergmann/environment/security/policy",
+                "source": "https://github.com/sebastianbergmann/environment/tree/8.1.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sebastianbergmann",
+                    "type": "github"
+                },
+                {
+                    "url": "https://liberapay.com/sebastianbergmann",
+                    "type": "liberapay"
+                },
+                {
+                    "url": "https://thanks.dev/u/gh/sebastianbergmann",
+                    "type": "thanks_dev"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/sebastian/environment",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2026-04-15T12:13:01+00:00"
+        },
+        {
+            "name": "sebastian/exporter",
+            "version": "7.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/exporter.git",
+                "reference": "016951ae10980765e4e7aee491eb288c64e505b7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/016951ae10980765e4e7aee491eb288c64e505b7",
+                "reference": "016951ae10980765e4e7aee491eb288c64e505b7",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=8.3",
+                "sebastian/recursion-context": "^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^12.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "7.0-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                },
+                {
+                    "name": "Jeff Welch",
+                    "email": "whatthejeff@gmail.com"
+                },
+                {
+                    "name": "Volker Dusch",
+                    "email": "github@wallbash.com"
+                },
+                {
+                    "name": "Adam Harvey",
+                    "email": "aharvey@php.net"
+                },
+                {
+                    "name": "Bernhard Schussek",
+                    "email": "bschussek@gmail.com"
+                }
+            ],
+            "description": "Provides the functionality to export PHP variables for visualization",
+            "homepage": "https://www.github.com/sebastianbergmann/exporter",
+            "keywords": [
+                "export",
+                "exporter"
+            ],
+            "support": {
+                "issues": "https://github.com/sebastianbergmann/exporter/issues",
+                "security": "https://github.com/sebastianbergmann/exporter/security/policy",
+                "source": "https://github.com/sebastianbergmann/exporter/tree/7.0.2"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sebastianbergmann",
+                    "type": "github"
+                },
+                {
+                    "url": "https://liberapay.com/sebastianbergmann",
+                    "type": "liberapay"
+                },
+                {
+                    "url": "https://thanks.dev/u/gh/sebastianbergmann",
+                    "type": "thanks_dev"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/sebastian/exporter",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2025-09-24T06:16:11+00:00"
+        },
+        {
+            "name": "sebastian/global-state",
+            "version": "8.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/global-state.git",
+                "reference": "ef1377171613d09edd25b7816f05be8313f9115d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/global-state/zipball/ef1377171613d09edd25b7816f05be8313f9115d",
+                "reference": "ef1377171613d09edd25b7816f05be8313f9115d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.3",
+                "sebastian/object-reflector": "^5.0",
+                "sebastian/recursion-context": "^7.0"
+            },
+            "require-dev": {
+                "ext-dom": "*",
+                "phpunit/phpunit": "^12.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "8.0-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                }
+            ],
+            "description": "Snapshotting of global state",
+            "homepage": "https://www.github.com/sebastianbergmann/global-state",
+            "keywords": [
+                "global state"
+            ],
+            "support": {
+                "issues": "https://github.com/sebastianbergmann/global-state/issues",
+                "security": "https://github.com/sebastianbergmann/global-state/security/policy",
+                "source": "https://github.com/sebastianbergmann/global-state/tree/8.0.2"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sebastianbergmann",
+                    "type": "github"
+                },
+                {
+                    "url": "https://liberapay.com/sebastianbergmann",
+                    "type": "liberapay"
+                },
+                {
+                    "url": "https://thanks.dev/u/gh/sebastianbergmann",
+                    "type": "thanks_dev"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/sebastian/global-state",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2025-08-29T11:29:25+00:00"
+        },
+        {
+            "name": "sebastian/lines-of-code",
+            "version": "4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/lines-of-code.git",
+                "reference": "97ffee3bcfb5805568d6af7f0f893678fc076d2f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/lines-of-code/zipball/97ffee3bcfb5805568d6af7f0f893678fc076d2f",
+                "reference": "97ffee3bcfb5805568d6af7f0f893678fc076d2f",
+                "shasum": ""
+            },
+            "require": {
+                "nikic/php-parser": "^5.0",
+                "php": ">=8.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^12.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "4.0-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Library for counting the lines of code in PHP source code",
+            "homepage": "https://github.com/sebastianbergmann/lines-of-code",
+            "support": {
+                "issues": "https://github.com/sebastianbergmann/lines-of-code/issues",
+                "security": "https://github.com/sebastianbergmann/lines-of-code/security/policy",
+                "source": "https://github.com/sebastianbergmann/lines-of-code/tree/4.0.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sebastianbergmann",
+                    "type": "github"
+                }
+            ],
+            "time": "2025-02-07T04:57:28+00:00"
+        },
+        {
+            "name": "sebastian/object-enumerator",
+            "version": "7.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/object-enumerator.git",
+                "reference": "1effe8e9b8e068e9ae228e542d5d11b5d16db894"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/object-enumerator/zipball/1effe8e9b8e068e9ae228e542d5d11b5d16db894",
+                "reference": "1effe8e9b8e068e9ae228e542d5d11b5d16db894",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.3",
+                "sebastian/object-reflector": "^5.0",
+                "sebastian/recursion-context": "^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^12.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "7.0-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                }
+            ],
+            "description": "Traverses array structures and object graphs to enumerate all referenced objects",
+            "homepage": "https://github.com/sebastianbergmann/object-enumerator/",
+            "support": {
+                "issues": "https://github.com/sebastianbergmann/object-enumerator/issues",
+                "security": "https://github.com/sebastianbergmann/object-enumerator/security/policy",
+                "source": "https://github.com/sebastianbergmann/object-enumerator/tree/7.0.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sebastianbergmann",
+                    "type": "github"
+                }
+            ],
+            "time": "2025-02-07T04:57:48+00:00"
+        },
+        {
+            "name": "sebastian/object-reflector",
+            "version": "5.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/object-reflector.git",
+                "reference": "4bfa827c969c98be1e527abd576533293c634f6a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/object-reflector/zipball/4bfa827c969c98be1e527abd576533293c634f6a",
+                "reference": "4bfa827c969c98be1e527abd576533293c634f6a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^12.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "5.0-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                }
+            ],
+            "description": "Allows reflection of object attributes, including inherited and non-public ones",
+            "homepage": "https://github.com/sebastianbergmann/object-reflector/",
+            "support": {
+                "issues": "https://github.com/sebastianbergmann/object-reflector/issues",
+                "security": "https://github.com/sebastianbergmann/object-reflector/security/policy",
+                "source": "https://github.com/sebastianbergmann/object-reflector/tree/5.0.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sebastianbergmann",
+                    "type": "github"
+                }
+            ],
+            "time": "2025-02-07T04:58:17+00:00"
+        },
+        {
+            "name": "sebastian/recursion-context",
+            "version": "7.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/recursion-context.git",
+                "reference": "0b01998a7d5b1f122911a66bebcb8d46f0c82d8c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/recursion-context/zipball/0b01998a7d5b1f122911a66bebcb8d46f0c82d8c",
+                "reference": "0b01998a7d5b1f122911a66bebcb8d46f0c82d8c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^12.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "7.0-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                },
+                {
+                    "name": "Jeff Welch",
+                    "email": "whatthejeff@gmail.com"
+                },
+                {
+                    "name": "Adam Harvey",
+                    "email": "aharvey@php.net"
+                }
+            ],
+            "description": "Provides functionality to recursively process PHP variables",
+            "homepage": "https://github.com/sebastianbergmann/recursion-context",
+            "support": {
+                "issues": "https://github.com/sebastianbergmann/recursion-context/issues",
+                "security": "https://github.com/sebastianbergmann/recursion-context/security/policy",
+                "source": "https://github.com/sebastianbergmann/recursion-context/tree/7.0.1"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sebastianbergmann",
+                    "type": "github"
+                },
+                {
+                    "url": "https://liberapay.com/sebastianbergmann",
+                    "type": "liberapay"
+                },
+                {
+                    "url": "https://thanks.dev/u/gh/sebastianbergmann",
+                    "type": "thanks_dev"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/sebastian/recursion-context",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2025-08-13T04:44:59+00:00"
+        },
+        {
+            "name": "sebastian/type",
+            "version": "6.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/type.git",
+                "reference": "e549163b9760b8f71f191651d22acf32d56d6d4d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/type/zipball/e549163b9760b8f71f191651d22acf32d56d6d4d",
+                "reference": "e549163b9760b8f71f191651d22acf32d56d6d4d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^12.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "6.0-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Collection of value objects that represent the types of the PHP type system",
+            "homepage": "https://github.com/sebastianbergmann/type",
+            "support": {
+                "issues": "https://github.com/sebastianbergmann/type/issues",
+                "security": "https://github.com/sebastianbergmann/type/security/policy",
+                "source": "https://github.com/sebastianbergmann/type/tree/6.0.3"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sebastianbergmann",
+                    "type": "github"
+                },
+                {
+                    "url": "https://liberapay.com/sebastianbergmann",
+                    "type": "liberapay"
+                },
+                {
+                    "url": "https://thanks.dev/u/gh/sebastianbergmann",
+                    "type": "thanks_dev"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/sebastian/type",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2025-08-09T06:57:12+00:00"
+        },
+        {
+            "name": "sebastian/version",
+            "version": "6.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/version.git",
+                "reference": "3e6ccf7657d4f0a59200564b08cead899313b53c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/version/zipball/3e6ccf7657d4f0a59200564b08cead899313b53c",
+                "reference": "3e6ccf7657d4f0a59200564b08cead899313b53c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "6.0-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Library that helps with managing the version number of Git-hosted PHP projects",
+            "homepage": "https://github.com/sebastianbergmann/version",
+            "support": {
+                "issues": "https://github.com/sebastianbergmann/version/issues",
+                "security": "https://github.com/sebastianbergmann/version/security/policy",
+                "source": "https://github.com/sebastianbergmann/version/tree/6.0.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sebastianbergmann",
+                    "type": "github"
+                }
+            ],
+            "time": "2025-02-07T05:00:38+00:00"
+        },
+        {
+            "name": "staabm/side-effects-detector",
+            "version": "1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/staabm/side-effects-detector.git",
+                "reference": "d8334211a140ce329c13726d4a715adbddd0a163"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/staabm/side-effects-detector/zipball/d8334211a140ce329c13726d4a715adbddd0a163",
+                "reference": "d8334211a140ce329c13726d4a715adbddd0a163",
+                "shasum": ""
+            },
+            "require": {
+                "ext-tokenizer": "*",
+                "php": "^7.4 || ^8.0"
+            },
+            "require-dev": {
+                "phpstan/extension-installer": "^1.4.3",
+                "phpstan/phpstan": "^1.12.6",
+                "phpunit/phpunit": "^9.6.21",
+                "symfony/var-dumper": "^5.4.43",
+                "tomasvotruba/type-coverage": "1.0.0",
+                "tomasvotruba/unused-public": "1.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A static analysis tool to detect side effects in PHP code",
+            "keywords": [
+                "static analysis"
+            ],
+            "support": {
+                "issues": "https://github.com/staabm/side-effects-detector/issues",
+                "source": "https://github.com/staabm/side-effects-detector/tree/1.0.5"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/staabm",
+                    "type": "github"
+                }
+            ],
+            "time": "2024-10-20T05:08:20+00:00"
+        },
+        {
+            "name": "theseer/tokenizer",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/theseer/tokenizer.git",
+                "reference": "7989e43bf381af0eac72e4f0ca5bcbfa81658be4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/theseer/tokenizer/zipball/7989e43bf381af0eac72e4f0ca5bcbfa81658be4",
+                "reference": "7989e43bf381af0eac72e4f0ca5bcbfa81658be4",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-tokenizer": "*",
+                "ext-xmlwriter": "*",
+                "php": "^8.1"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Arne Blankerts",
+                    "email": "arne@blankerts.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A small library for converting tokenized PHP source code into XML and potentially other formats",
+            "support": {
+                "issues": "https://github.com/theseer/tokenizer/issues",
+                "source": "https://github.com/theseer/tokenizer/tree/2.0.1"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/theseer",
+                    "type": "github"
+                }
+            ],
+            "time": "2025-12-08T11:19:18+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=8.3",
+        "ext-json": "*"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
