@@ -1,0 +1,7 @@
+/runtime
+/.env
+/vendor
+/.idea
+/tests/.phpstan.cache
+/tests/.phpunit.cache
+/tests/coverage

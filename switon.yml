@@ -1,0 +1,42 @@
+# Switon YAML config
+# Behaviour: vendor/switon/kernel/spec/config/yaml.md (load, merge, DI definitions)
+# YAML subset: vendor/switon/yaml/subset.md
+# Top-level keys are service IDs (usually interface FQCNs).
+
+Switon\Core\AppInterface:
+  id: skeleton
+  name: Switon
+  env: ${APP_ENV:-dev}
+  debug: ${APP_DEBUG:-false}
+  timezone: ${APP_TIMEZONE:-UTC}
+  version: 0.0.0
+
+Switon\Http\ServerOptions:
+  type: ${SERVER_TYPE:-php}
+  port: ${SERVER_PORT:-9501}
+  settings:
+    enable_static_handler: ${APP_DEBUG:-false}
+
+Switon\Routing\RouterInterface:
+  prefix: ""
+
+Switon\Http\RequestHandlerInterface:
+  filters:
+    cors: Switon\Http\Filter\CorsFilter
+    # Disable until you add a logger-backed access log filter in production.
+    accessLog: null
+
+Psr\Log\LoggerInterface:
+  level: ${LOG_LEVEL:-debug}
+
+# Common next steps:
+#
+# Switon\Db\ClientInterface:
+#   class: Switon\Di\Factory
+#   default:
+#     uri: ${DB_URL}
+#
+# Switon\Redis\ClientInterface:
+#   class: Switon\Di\Factory
+#   default:
+#     uri: ${REDIS_URL}
