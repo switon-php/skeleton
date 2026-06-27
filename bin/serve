@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Local dev HTTP: PHP built-in server. Set XDEBUG_MODE=debug to attach a debugger.
+ROOT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
+cd "$ROOT_DIR" || exit 1
+XDEBUG_MODE=${XDEBUG_MODE:-off} PHP_CLI_SERVER_WORKERS=${SERVER_WORKERS:-4} \
+    php -S ${SERVER_HOST:-0.0.0.0}:${SERVER_PORT:-9501} -t public public/index.php
