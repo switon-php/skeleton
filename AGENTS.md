@@ -73,3 +73,7 @@ Routes: configure the prefix in `switon.yml`; actions live in `app/Controller/`.
 ## Project Overrides
 
 Add app-specific or third-party rules here. Keep short and scoped.
+
+- **HTTP request input:** use `RequestInterface::post()` / `query()` / `all()` — verify in `vendor/switon/http/src/RequestInterface.php`; do not use PSR-7/Laravel method names unless grep confirms they exist here.
+- **Routes:** discover with `bash bin/console router:list --json`; exemplar controller: `app/Controller/TimeController.php`.
+- **HTTP verify:** `curl` with realistic headers (`Accept: application/json` for GET JSON); syntax check alone is not enough.
