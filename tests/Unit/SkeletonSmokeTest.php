@@ -9,7 +9,7 @@ use App\Controller\IndexController;
 use App\Controller\TimeController;
 use Switon\Testing\TestCase;
 
-final class SkeletonSmokeTest extends TestCase
+class SkeletonSmokeTest extends TestCase
 {
     public function testPhpVersionIsAtLeast83(): void
     {
