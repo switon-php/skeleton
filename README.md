@@ -38,4 +38,4 @@ On Windows when shell wrapper execution is unavailable, use `php switon.php` ins
 - add `config/*.php` only when you need PHP-only configuration patches.
 - `public/index.php` is the HTTP entrypoint.
 
-Docs: https://docs.switon.dev/latest/tutorial
+Docs: https://github.com/switon-php/kernel/blob/main/docs/README.md
