@@ -40,6 +40,7 @@
         "switon/id": "^1.0",
         "switon/kernel": "^1.0",
         "switon/log": "^1.0",
+        "switon/mcp": "^1.0",
         "switon/principal": "^1.0"
     },
     "require-dev": {
