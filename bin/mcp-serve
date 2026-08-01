@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# MCP stdio entrypoint for Cursor / Claude Desktop (cwd-independent).
+ROOT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
+export PATH="/opt/homebrew/opt/php@8.3/bin:/opt/homebrew/bin:/usr/local/bin:${PATH}"
+cd "$ROOT_DIR" || exit 1
+XDEBUG_MODE=${XDEBUG_MODE:-off} exec php "$ROOT_DIR/switon.php" mcp:serve

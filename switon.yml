@@ -30,6 +30,12 @@ Switon\Http\RequestHandlerInterface:
 Psr\Log\LoggerInterface:
   level: ${LOG_LEVEL:-debug}
 
+Switon\Mcp\ServerInfoInterface:
+  name: ${APP_NAME:-switon}
+  version: ${APP_VERSION:-0.0.0}
+
+# MCP tools: default scan @app/Mcp/Tool/*Tool.php (NowTool → now). Override via ToolsInterface.tools.
+
 # Common next steps:
 #
 # Switon\Db\ClientInterface:

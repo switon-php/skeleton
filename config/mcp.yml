@@ -1,0 +1,13 @@
+# Example / project-local MCP config.
+# Default path is user-level: ~/.switon/mcp.yml (same home root as llm.yml).
+# To use this file instead, set Servers $file to @root/config/mcp.yml in switon.yml.
+#
+# Format: stdio (command) or streamable (url).
+# Per server: `enabled: false` skips load (default true).
+# Tools: merge into Switon\Tooling\Tools `$tools` in app `switon.yml`.
+
+# app:
+#   enabled: true
+#   command: php
+#   args: [bin/mcp-serve]
+#   cwd: @root
